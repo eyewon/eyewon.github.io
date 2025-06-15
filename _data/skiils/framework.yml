@@ -1,0 +1,10 @@
+- name: Flutter 
+  color: success
+  percentage: 60
+  explain: 프로젝트 진행 
+
+
+- name: React 
+  color: success
+  percentage: 50
+  explain: 프로젝트 진행

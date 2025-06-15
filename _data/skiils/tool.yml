@@ -1,0 +1,11 @@
+- name: GitHub
+  color: dark
+  explain: 코드 버전 관리
+
+- name: Figma
+  color: dark
+  explain: UI 디자인
+
+- name: Notion
+  color: secondary
+  explain: 문서 작성

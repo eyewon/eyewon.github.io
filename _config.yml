@@ -1,10 +1,18 @@
 ### Site Settings ###
-title               : Lee Yewon ✨
+title               : Yes Im On
 description         : >-
-                      Hi World
-                      안녕하세요. 
-                      시행착오와 실패를 두려워하지 않고 그 과정에서 배우는 것을 즐기는
-                      개발자, 이예원입니다.
+                      <p>
+                      사용자의 시선에서 고민하고,<br>
+                      사용자의 목소리로 완성하는 개발.<br>
+                      사용자에게 더 의미 있는 경험을 주기 위해 <br> 
+                      끊임없이 노력하는 <b> 개발자 이예원</b>입니다. <p>
+                      <p class="markdown-body">
+                      ✨ <a href="https://https://eyewon.github.io/about">Portfolio</a>
+                      &ensp;
+                      ✏️ <a href="https://yes-im-on.tistory.com/">Blog</a>
+                      &ensp;
+                      💻 <a href="https://github.com/eyewon">Github</a>
+                      </p>
 baseurl             : ""            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : eyewon/eyewon.github.io      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : yousinix/portfolYOU
@@ -21,29 +29,31 @@ nav_exclude:                                            # The following paths ar
   - pages/tags.html
   - pages/404.html
   - pages/index.md
+  - documentation/partials/**
+  - docs/*
 
 
 
 ### Author Info ###
 author:
   name              : Lee Yewon
-  image             : assets/profile_1.png
-  behance           : your_username
+  image             : assets/img/profile.png
+#  behance           : eyewon
 # dribbble          : your_username
-  email             : username@domain.com
-  facebook          : your_username
-  github            : https://github.com/eyewon
+  naver             : eye_o-o@naver.com
+#  facebook          : your_username
+  github            : eyewon
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-  linkedin          : your_username
-  medium            : your_username
+  tistory          : yes-im-on.tistory.com
+  google            : e.yewon.oo@gmail.com
 # soundcloud        : your_username
 # spotify           : your_username
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 # twitch            : your_username
-  twitter           : your_username
+#  twitter           : your_username
 # vimeo             : your_username
 # youtube           : your_channel_name
 # keybase           : your_username
@@ -58,6 +68,8 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
+  elements:
+    output: true
 
 
 ### Disqus ###
@@ -89,11 +101,16 @@ defaults:
       type: "projects"
     values:
       layout: "page"
+  - scope:                                              # For Documentation Only
+      path: ""                                          # For Documentation Only
+      type: "elements"                                  # For Documentation Only
+    values:                                             # For Documentation Only
+      layout: "element"                                 # For Documentation Only
   - scope:
       path: ""
       type: "posts"
     values:
-      comments: false                                   # Set to true to enable disqus comments
+      comments: true                                     # Set to true to enable disqus comments
 
 
 ### Exclude from processing ###
@@ -102,3 +119,5 @@ exclude:
   - CONTRIBUTING.md
   - LICENSE
   - "*.log"
+
+timezone: Asia/Seoul

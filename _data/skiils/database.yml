@@ -1,0 +1,15 @@
+- name: MySQL
+  color: primary
+  percentage: 50
+  explain: DML, DDL, DCL 명령어 사용 가능@@
+            Transaction
+
+- name: Firebase 
+  color: primary
+  percentage: 50
+  explain: 프로젝트 구현
+
+- name: AWS EC2
+  color: primary
+  percentage: 50
+  explain: 소규모 프로젝트 

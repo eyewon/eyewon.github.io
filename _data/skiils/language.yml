@@ -1,0 +1,21 @@
+- name: Java
+  color: danger
+  percentage: 60
+  explain: DFS, BFS 등 여러 알고리즘 구현
+
+- name: HTML5, CSS3, JavaScript(ES6)
+  color: warning
+  percentage: 45
+  explain: 소규모 프로젝트 진행
+
+- name: Dart
+  color: warning
+  percentage: 60
+  explain: 프로젝트 진행 
+
+- name: Python
+  color: danger
+  percentage: 65
+  explain: DFS, BFS 등 여러 알고리즘 구현@@
+            Selenium, BeautifulSoup으로 크롤링@@
+            Numpy 및 Pandas 라이브러리 사용

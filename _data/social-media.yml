@@ -11,14 +11,14 @@ dribbble:
   icon  : fab fa-dribbble
   color : 444444
 
-email:
+naver:
   url   : "mailto:"
   icon  : fas fa-envelope
   color : db4437
 
-facebook:
-  url   : https://www.facebook.com/
-  icon  : fab fa-facebook
+google:
+  url   : "mailto:"
+  icon  : fas fa-envelope
   color : 3b5998
 
 github:
@@ -95,3 +95,8 @@ keybase:
   url   : https://www.keybase.io/
   icon  : fab fa-keybase
   color : 66ccff
+
+  tistory:
+  url   : https://
+  icon  : fas fa-clipboard
+  color : 333333
